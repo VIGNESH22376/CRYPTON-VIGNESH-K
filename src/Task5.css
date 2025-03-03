@@ -1,0 +1,72 @@
+.header{
+    display: flex;
+    justify-content: end;
+  }
+  .icon{
+    padding: 30px 40px;
+    font-size: 25px;
+  }
+  
+  .top{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color:blue;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .content{
+    padding: 10px 100px;
+  }
+  
+  .main-content
+  {
+    font-size: 40px;
+    font-weight: 700;
+  
+  }
+  .sub-content{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .Rating-div{
+    display: flex;
+  }
+  
+  .icon2{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .rating-heading{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+  
+  }
+  .rating-heading-cont{
+    padding: 0px 10px;
+  }
+  .rating{
+    font-size: 10px;
+    color: gray;
+    margin: 0px;
+  }
+  .signup{
+    padding: 20px 50px;
+    color: black;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-align: center;
+  
+  }
+  .products{
+    padding: 20px 50px;
+    color: white;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: black;
+  }

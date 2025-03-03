@@ -1,0 +1,98 @@
+*{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-heading{
+    font-size: 30px;
+    color: black;
+    font-weight: 300;
+}
+.main-heading-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+    align-items: center;
+}
+.see{
+    color: gray;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* --------------------Card------------------ */
+.img-container{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.card-container{
+    margin: 20px 200px;
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-details{
+    display: flex;
+    background-color: white;
+    padding: 0px 30px;
+}
+
+.Person-details{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.Person-name{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+
+}
+
+.date-time{
+    font-size: 20px;
+    color: gray;
+    background-color: white;
+    padding: 5px 0px 0px;
+}
+
+.Amount-container{
+    background-color: white;
+    padding: 0px 30px;
+
+}
+
+.Amount-Received{
+    background-color: white;
+    color: green;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.Status{
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+    margin: 10px 0px;
+    background-color: white;
+}
